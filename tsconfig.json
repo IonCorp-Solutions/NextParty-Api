@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "baseUrl":".",
+    "paths": {
+      "@users/*": ["src/users/*"],
+      "@categories/*": ["src/categories/*"],
+      "@events/*": ["src/events/*"],
+      "@auth/*": ["src/auth/*"],
+      "@user_event/*": ["src/user_event/*"],
+      "@images/*": ["src/images/*"]
+    }
+
+  }
+}
